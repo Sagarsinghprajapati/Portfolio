@@ -472,3 +472,232 @@ header nav .search i {
   gap: 10px;
   margin-top: 7.5vh;
 }
+
+
+
+
+
+
+
+
+
+
+/* ========= RESPONSIVE DESIGN ========= */
+@media (max-width: 1024px) {
+  /* Tablet styles here */
+
+  /* Header & Navigation */
+  header {
+    padding: 20px 20px;
+    background-position: center;
+    height: 110vh;
+    margin-bottom: -16rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: static;
+    width: 100%;
+  }
+
+  header nav .search {
+    width: 100%;
+  }
+
+  .landing {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 4vh;
+    height: 62vh;
+  }
+
+  .landing .intro h3 {
+    font-size: 28px;
+    margin-left: 0;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .landing .intro h3 span {
+    font-size: 2.5rem;
+  }
+
+  .intro button {
+    margin-left: 0;
+    height: 35px;
+    width: 130px;
+    margin-top: 2.0vh;
+  }
+
+  .socials {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 5px;
+    width: 100%;
+    
+  }
+
+  .socials .line {
+    display: none;
+  }
+
+
+
+  /* ABOuT SECTION */
+  .about {
+    height: auto;
+    padding: 20px;
+  }
+
+  .about .description {
+    flex-direction: column;
+  }
+
+  .about .description .line {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .about .description p {
+    font-size: 16px;
+  }
+
+
+
+
+
+  /* SKILLS  */
+
+  .skills {
+    padding: 20px;
+  }
+
+  .skill-card {
+    height: 22vw;
+    width: 22vw;
+    gap: 2vh;
+  }
+
+  .skill-card img {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  .skill-card h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .skills h1 {
+    font-size: 32px;
+  }
+
+
+
+
+  /* PORFOLIO */
+
+  .portfolio {
+    padding: 20px;
+  }
+
+  .portfolio-cards {
+    grid-template-columns: auto auto;
+  }
+
+  .portfolio-card {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .portfolio-card img,
+  .portfolio-card .overlay {
+    height: 40vw;
+    width: 40vw;
+  }
+
+  .portfolio-card .overlay {
+    height: 40vw;
+    width: 40vw;
+    padding: 4px 5px;
+    gap: 0.5rem;
+  }
+
+  .portfolio-card .overlay h3{
+    font-size: 16px;
+  }
+
+  .portfolio-card .overlay p{
+    font-size: 14px;
+  }
+
+  .portfolio-card .overlay button{
+    margin-top: 12px;
+    height: 25px;
+  }
+
+
+
+
+
+
+
+  /* EXPERIENCE  */
+  .experience h1 {
+    font-size: 40px;
+    left: 32%;
+    top: 8%;
+  }
+
+  .lighter-div {
+    padding: 20px 40px;
+    gap: 12rem;
+  }
+
+  .lighter-div .exp {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .exp h2 {
+    font-size: 24px;
+  }
+
+  .exp-desc p {
+    font-size: 14px;
+  }
+
+
+
+
+
+
+  /* CONTACT SECTION */
+  .contact-me {
+    margin-top: 12rem;
+    padding: 20px;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .contact-card {
+    width: 250px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5.5vh;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  /* Mobile styles here */
+}
