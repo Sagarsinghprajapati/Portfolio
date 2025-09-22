@@ -573,28 +573,19 @@ header nav .search i {
   /* SKILLS  */
 
   .skills {
-    padding: 8px;
-  }
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+  gap: 16px; /* space between boxes */
+  justify-items: center; /* center align cards */
+}
 
-  .skill-card {
-    height: 28vw;
-    width: 28vw;
-    gap: 2vh;
-  }
+.skill-card {
+  height: 28vw;
+  width: 28vw;
+  gap: 2vh;
+}
 
-  .skill-card img {
-    height: 8vw;
-    width: 8vw;
-  }
-
-  .skill-card h2 {
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .skills h1 {
-    font-size: 32px;
-  }
 
 
 
