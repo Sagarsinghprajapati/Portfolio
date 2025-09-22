@@ -573,22 +573,22 @@ header nav .search i {
   /* SKILLS  */
 
   .skills {
-    padding: 18px;
+    padding: 8px;
   }
 
   .skill-card {
-    height: 24vw;
-    width: 24vw;
+    height: 28vw;
+    width: 28vw;
     gap: 2vh;
   }
 
   .skill-card img {
-    height: 9vw;
-    width: 9vw;
+    height: 8vw;
+    width: 8vw;
   }
 
   .skill-card h2 {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
   }
 
