@@ -572,18 +572,18 @@ header nav .search i {
 
   /* SKILLS  */
 
-  .skills {
+.skills {
   padding: 8px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
-  gap: 16px; /* space between boxes */
-  justify-items: center; /* center align cards */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 .skill-card {
+  flex: 0 0 45%; /* roughly 2 per row */
   height: 28vw;
-  width: 28vw;
-  gap: 2vh;
+  width: auto;
 }
 
 
