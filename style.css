@@ -581,7 +581,7 @@ header nav .search i {
 }
 
 .skill-card {
-  flex: 0 0 45%; /* roughly 2 per row */
+  flex: 0 0 25%; /* roughly 2 per row */
   height: 28vw;
   width: auto;
 }
